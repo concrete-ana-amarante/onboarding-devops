@@ -1,6 +1,5 @@
-print("Insira os números separados por espaço:")
+print("Insira os números separados por espaço:", end=" ")
 nums = list(map(int, input().split()))
 nums.sort()
 nums.reverse()
-print("Os números na ordem decrescente são: ")
-print(nums)
+print("Os números na ordem decrescente são: ", nums)
