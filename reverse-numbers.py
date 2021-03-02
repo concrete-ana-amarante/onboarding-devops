@@ -1,0 +1,6 @@
+print("Insira os números separados por espaço:")
+nums = list(map(int, input().split()))
+nums.sort()
+nums.reverse()
+print("Os números na ordem decrescente são: ")
+print(nums)
